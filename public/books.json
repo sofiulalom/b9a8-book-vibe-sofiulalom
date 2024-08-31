@@ -1,0 +1,176 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "The Art of War",
+            "image": "https://i.ibb.co/X8ZFBb0/6f4bcc425fe5ccbac3a63f4368227101.jpg",
+            "description": "A timeless classic on military strategy and tactics, 'The Art of War' by Sun Tzu offers profound insights into leadership and conflict resolution that are still relevant today.",
+            "hashtags": [
+                "#strategy",
+                "#leadership",
+                "#classics"
+            ],
+            "views": 7200,
+            "time": "02:15 PM",
+            "date": "2024-08-15",
+            "rating": 4.8,
+            "rating_by": "John Doe",
+            "Number_of_Page":"271",
+            "Publisher":"John Doe",
+            "Year_of_Publishing":"1970"
+        },
+        {
+            "id": 2,
+            "title": "1984",
+            "image": "https://i.ibb.co/y8tV75v/28cf8fde8e5d4d881629d990c06a72fe.jpg",
+            "description": "George Orwell’s dystopian novel '1984' explores the dangers of totalitarianism and extreme political ideology, portraying a world of surveillance, control, and propaganda.",
+            "hashtags": [
+                "#dystopia",
+                "#politics",
+                "#orwell"
+            ],
+            "views": 9800,
+            "time": "04:45 PM",
+            "date": "2024-08-10",
+            "rating": 4.9,
+            "rating_by": "Jane Smith",
+            "Number_of_Page": "205",
+            "Publisher": "Jane Smith",
+            "Year_of_Publishing": "1990"
+        },
+        {
+            "id": 3,
+            "title": "To Kill a Mockingbird",
+            "image": "https://i.ibb.co/qC102B5/4457132de-50305.pnghttps://i.ibb.co/qC102B5/4457132de-50305.png",
+            "description": "Harper Lee's 'To Kill a Mockingbird' is a profound novel that deals with themes of racial injustice, moral growth, and empathy through the eyes of young Scout Finch.",
+            "hashtags": [
+                "#justice",
+                "#empathy",
+                "#harperlee"
+            ],
+            "views": 8600,
+            "time": "11:00 AM",
+            "date": "2024-08-12",
+            "rating": 4.7,
+            "rating_by": "Emily Clark",
+            "Number_of_Page": "281",
+            "Publisher": "Emily Clark",
+            "Year_of_Publishing": "1987"
+        },
+        {
+            "id": 4,
+            "title": "Pride and Prejudice",
+            "image": "https://i.ibb.co/ZdYNbgc/20794875.jpg",
+            "description": "Jane Austen's 'Pride and Prejudice' is a witty exploration of manners, marriage, and society in early 19th-century England, featuring the unforgettable characters of Elizabeth Bennet and Mr. Darcy.",
+            "hashtags": [
+                "#romance",
+                "#society",
+                "#janeausten"
+            ],
+            "views": 10300,
+            "time": "09:30 AM",
+            "date": "2024-08-08",
+            "rating": 4.6,
+            "rating_by": "Michael Brown",
+            "Number_of_Page": "261",
+            "Publisher": "Michael Brown",
+            "Year_of_Publishing": "1972"
+        },
+        {
+            "id": 5,
+            "title": "The Great Gatsby",
+            "image": "https://i.ibb.co/vvtpyCS/240103180033-12a-12-books-to-read-2024.jpg",
+            "description": "F. Scott Fitzgerald’s 'The Great Gatsby' captures the glamour and disillusionment of the American Dream in the Roaring Twenties, centered around the enigmatic Jay Gatsby.",
+            "hashtags": [
+                "#americandream",
+                "#gatsby",
+                "#roaringtwenties"
+            ],
+            "views": 12000,
+            "time": "07:45 PM",
+            "date": "2024-08-05",
+            "rating": 4.9,
+            "rating_by": "Sarah Johnson",
+            "Number_of_Page": "288",
+            "Publisher": "Sarah Johnson",
+            "Year_of_Publishing": "1955"
+        },
+        {
+            "id": 6,
+            "title": "Moby-Dick",
+            "image": "https://i.ibb.co/9vDF3p6/A-Text-Book-of-Biology-1st-Part-Dr-M-Abdul-Alim-be9ec-116135.jpg",
+            "description": "Herman Melville’s 'Moby-Dick' is an epic tale of obsession, adventure, and the relentless pursuit of the elusive white whale, exploring deep themes of fate and humanity.",
+            "hashtags": [
+                "#adventure",
+                "#obsession",
+                "#classics"
+            ],
+            "views": 6500,
+            "time": "08:00 PM",
+            "date": "2024-08-03",
+            "rating": 4.5,
+            "rating_by": "David Lee",
+            "Number_of_Page": "271",
+            "Publisher": "David Lee",
+            "Year_of_Publishing": "1977"
+        },
+        {
+            "id": 7,
+            "title": "Brave New World",
+            "image": "https://i.ibb.co/n00X5h2/canva-brown-rusty-mystery-novel-book-cover-h-G1-Qh-A7-Bi-BU.jpg",
+            "description": "Aldous Huxley's 'Brave New World' presents a dystopian future where technology controls every aspect of life, exploring the loss of individuality and the dangers of a controlled society.",
+            "hashtags": [
+                "#dystopia",
+                "#technology",
+                "#huxley"
+            ],
+            "views": 8400,
+            "time": "01:30 PM",
+            "date": "2024-08-01",
+            "rating": 4.8,
+            "rating_by": "Olivia Martinez",
+            "Number_of_Page": "211",
+            "Publisher": "Olivia Martinez",
+            "Year_of_Publishing": "1975"
+        },
+        {
+            "id": 8,
+            "title": "The Catcher in the Rye",
+            "image": "https://i.ibb.co/qm55ZCt/essentials-of-english-9780764143168-lg.jpg",
+            "description": "J.D. Salinger's 'The Catcher in the Rye' follows the experiences of Holden Caulfield, a teenager struggling with identity, alienation, and the challenges of growing up.",
+            "hashtags": [
+                "#identity",
+                "#teenage",
+                "#salinger"
+            ],
+            "views": 9100,
+            "time": "03:00 PM",
+            "date": "2024-07-28",
+            "rating": 4.7,
+            "rating_by": "Sophia Wilson",
+            "Number_of_Page": "300",
+            "Publisher": "Sophia Wilson.",
+            "Year_of_Publishing": "1968"
+            
+        },
+        {
+            "id": 9,
+            "title": "The Lord of the Rings",
+            "image": "https://i.ibb.co/zJd2617/science-book-vector-6146167.jpg",
+            "description": "J.R.R. Tolkien’s 'The Lord of the Rings' is an epic fantasy tale of heroism, friendship, and the battle between good and evil, set in the richly detailed world of Middle-earth.",
+            "hashtags": [
+                "#fantasy",
+                "#adventure",
+                "#tolkien"
+            ],
+            "views": 15000,
+            "time": "10:00 AM",
+            "date": "2024-07-25",
+            "rating": 5.0,
+            "rating_by": "James Robinson",
+            "Number_of_Page": "200",
+            "Publisher": "James Robinson",
+            "Year_of_Publishing": "1965"
+        }
+    ]
+}

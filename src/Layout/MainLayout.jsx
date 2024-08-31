@@ -4,9 +4,12 @@ import Header from '../compunent/Header/Header';
 
  const MainLayout = () => {
     return (
-        <div>
+        <div >
             <Header></Header>
+            <div className='max-w-7xl mx-auto'>
             <Outlet></Outlet>
+
+            </div>
 
         </div>
     );
