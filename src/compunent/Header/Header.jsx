@@ -26,7 +26,7 @@ const Header = () => {
                         className="menu menu-sm  dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         
                         <NavLink className='ml-5 ' to='/'>Home</NavLink> 
-                        <NavLink className='ml-5' to='/book'>Listed Books</NavLink> 
+                        <NavLink className='ml-5' to='/listDetail'>Listed Books</NavLink> 
                         <NavLink className='ml-5' to='/read'>Page to Read</NavLink> 
                     </ul>
                 </div>
@@ -35,7 +35,7 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal mr-5 px-1">
                     <NavLink className='ml-5 btn btn-outline btn-success' to='/'>Home</NavLink>
-                    <NavLink className='ml-5 btn btn-outline btn-success' >Listed Books</NavLink>
+                    <NavLink className='ml-5 btn btn-outline btn-success' to='/listDetail' >Listed Books</NavLink>
                     
                     <NavLink className='ml-5 btn btn-outline btn-success' to='/read'>Page to Read</NavLink>
                 </ul>

@@ -1,20 +1,31 @@
 import React from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { getHendleReadStorage, saveBooksReadStorage } from '../Utilty/readStorage';
 
 
 
 const ListedBook = () => {
-   const books =useLoaderData()
- 
+    const books = useLoaderData();
    
     const { id } = useParams();
     const idint = parseInt(id)
     const book = books.books.find(book => book.id === idint)
-     console.log(book)
+    
+    const handleread = () => {
+        saveBooksReadStorage(idint)
+        toast.success('Read successfull!');
+        
+        
+    }
    
+    const handleWishList = () => {
+        toast.success('wishList succssfull!')
+    }
     
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl">
+            
             <figure>
                 <img
                     src={book.image}
@@ -46,8 +57,9 @@ const ListedBook = () => {
                 </div>
               
                 <div className="card-actions ">
-                    <button className="btn btn-outline btn-primary">Read</button>
-                    <button className="btn btn-primary">Wishlist</button>
+                    <button className="btn btn-outline btn-primary" onClick={handleread}>Read</button>
+                    <button onClick={handleWishList} className="btn btn-primary">Wishlist</button>
+                    <Toaster></Toaster>
                     
                 </div>
             </div>
