@@ -1,25 +1,33 @@
 import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { getHendleReadStorage, saveBooksReadStorage } from '../Utilty/readStorage';
+import { saveWishListsStorge } from '../Utilty/wishStorage';
 
 
 
 const ListedBook = () => {
     const books = useLoaderData();
+    
    
     const { id } = useParams();
     const idint = parseInt(id)
     const book = books.books.find(book => book.id === idint)
+    
+   
+        
     
     const handleread = () => {
         saveBooksReadStorage(idint)
         toast.success('Read successfull!');
         
         
+        
     }
+
    
     const handleWishList = () => {
+       saveWishListsStorge(idint)
         toast.success('wishList succssfull!')
     }
     

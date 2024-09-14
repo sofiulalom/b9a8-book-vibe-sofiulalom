@@ -9,7 +9,7 @@ const getHendleReadStorage = () => {
 const saveBooksReadStorage = (id) => {
     const storageBooks = getHendleReadStorage();
     const exzist = storageBooks.find(bookId => bookId === id);
-    console.log(exzist)
+  
     if (!exzist) {
         storageBooks.push(id);
        localStorage.setItem('books', JSON.stringify(storageBooks))

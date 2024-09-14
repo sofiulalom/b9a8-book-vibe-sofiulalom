@@ -17,7 +17,9 @@
             "rating_by": "John Doe",
             "Number_of_Page":"271",
             "Publisher":"John Doe",
-            "Year_of_Publishing":"1970"
+            "Year_of_Publishing":"1970",
+            "Catagory":"classic"
+
         },
         {
             "id": 2,
@@ -36,7 +38,8 @@
             "rating_by": "Jane Smith",
             "Number_of_Page": "205",
             "Publisher": "Jane Smith",
-            "Year_of_Publishing": "1990"
+            "Year_of_Publishing": "1990",
+            "Catagory": "classic"
         },
         {
             "id": 3,
@@ -55,7 +58,8 @@
             "rating_by": "Emily Clark",
             "Number_of_Page": "281",
             "Publisher": "Emily Clark",
-            "Year_of_Publishing": "1987"
+            "Year_of_Publishing": "1987",
+            "Catagory": "classic"
         },
         {
             "id": 4,
@@ -74,7 +78,8 @@
             "rating_by": "Michael Brown",
             "Number_of_Page": "261",
             "Publisher": "Michael Brown",
-            "Year_of_Publishing": "1972"
+            "Year_of_Publishing": "1972",
+            "Catagory": "classic"
         },
         {
             "id": 5,
@@ -93,7 +98,8 @@
             "rating_by": "Sarah Johnson",
             "Number_of_Page": "288",
             "Publisher": "Sarah Johnson",
-            "Year_of_Publishing": "1955"
+            "Year_of_Publishing": "1955",
+            "Catagory": "classic"
         },
         {
             "id": 6,
@@ -112,7 +118,8 @@
             "rating_by": "David Lee",
             "Number_of_Page": "271",
             "Publisher": "David Lee",
-            "Year_of_Publishing": "1977"
+            "Year_of_Publishing": "1977",
+            "Catagory": "classic"
         },
         {
             "id": 7,
@@ -131,7 +138,8 @@
             "rating_by": "Olivia Martinez",
             "Number_of_Page": "211",
             "Publisher": "Olivia Martinez",
-            "Year_of_Publishing": "1975"
+            "Year_of_Publishing": "1975",
+            "Catagory": "classic"
         },
         {
             "id": 8,
@@ -150,7 +158,8 @@
             "rating_by": "Sophia Wilson",
             "Number_of_Page": "300",
             "Publisher": "Sophia Wilson.",
-            "Year_of_Publishing": "1968"
+            "Year_of_Publishing": "1968",
+            "Catagory": "classic"
             
         },
         {
@@ -170,7 +179,8 @@
             "rating_by": "James Robinson",
             "Number_of_Page": "200",
             "Publisher": "James Robinson",
-            "Year_of_Publishing": "1965"
+            "Year_of_Publishing": "1965",
+            "Catagory": "classic"
         }
     ]
 }
