@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { Link, useLoaderData, useParams } from 'react-router-dom';
-import { getHendleReadStorage, saveBooksReadStorage } from '../Utilty/readStorage';
+import {  useLoaderData, useParams } from 'react-router-dom';
+import {  saveBooksReadStorage } from '../Utilty/readStorage';
 import { saveWishListsStorge } from '../Utilty/wishStorage';
 
 
