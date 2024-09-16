@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { getHendleReadStorage } from '../Utilty/readStorage';
+
 import { getHandleWishLists } from '../Utilty/wishStorage';
 import WishList from '../WishList/WishList';
 
 const WishLLlists = () => {
     const wishBooks = useLoaderData();
-    console.log(wishBooks.books)
+   
     const [saveWishbooks, setSaveWishbooks]=useState([])
 
     useEffect(() => {

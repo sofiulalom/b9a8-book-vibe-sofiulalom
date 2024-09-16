@@ -27,7 +27,7 @@ const Header = () => {
                         
                         <NavLink className='ml-5 ' to='/'>Home</NavLink> 
                         <NavLink className='ml-5' to='/listDetail'>Listed Books</NavLink> 
-                        <NavLink className='ml-5' to='/read'>Page to Read</NavLink> 
+                        <NavLink className='ml-5' to='/pagetoread'>Page to Read</NavLink> 
                     </ul>
                 </div>
                 <a className="btn btn-ghost font-bold text-2xl">Book vibe</a>
@@ -37,7 +37,8 @@ const Header = () => {
                     <NavLink className='ml-5 btn btn-outline btn-success' to='/'>Home</NavLink>
                     <NavLink className='ml-5 btn btn-outline btn-success' to='/listDetail' >Listed Books</NavLink>
                     
-                    <NavLink className='ml-5 btn btn-outline btn-success' to='/read'>Page to Read</NavLink>
+                    <NavLink className='ml-5 btn btn-outline btn-success' to='/pagetoread'>Page to Read</NavLink>
+                   
                 </ul>
             </div>
             <div className="navbar-end">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { getHendleReadStorage, saveBooksReadStorage } from '../Utilty/readStorage';
@@ -30,6 +30,8 @@ const ListedBook = () => {
        saveWishListsStorge(idint)
         toast.success('wishList succssfull!')
     }
+  
+
     
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl">
